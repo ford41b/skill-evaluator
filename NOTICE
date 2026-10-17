@@ -1,0 +1,15 @@
+Skill Evaluator (browser)
+
+This project re-implements, in TypeScript for the browser, the checks and scoring
+model of NVIDIA SkillEvaluator (https://github.com/NVIDIA/SkillEvaluator),
+Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES, licensed under the
+Apache License, Version 2.0.
+
+Derived from NVIDIA SkillEvaluator:
+  - Validation rules, severity levels, PII / unicode-smuggling / license patterns
+  - The 4-dimension quality score (weights, deductions, A-F grade thresholds)
+  - Deduplication thresholds and the evals/evals.json dataset format
+  - The `calculator` and `text-analyzer` reference skills in src/examples/skills/
+    (Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES, Apache-2.0)
+
+This is an independent project. It is not affiliated with, or endorsed by, NVIDIA.
